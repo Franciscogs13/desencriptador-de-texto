@@ -1,0 +1,152 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  background: #f3f5fc;
+  font-family: 'Inter', sans-serif;
+}
+.container {
+  margin: auto;
+  width: 960px;
+  height: 650px;
+  padding: 5px;
+}
+.logo {
+  position: relative;
+  width: Hug (120px) px;
+  height: Hug (48px) px;
+  top: 40px;
+  left: -80px;
+  gap: 40px;
+  opacity: 0px;
+}
+.left {
+  float: left;
+  width: 70%;
+  height: 70%;
+  border-radius: 24px;
+}
+.right {
+  float: right;
+  width: 30%;
+  height: auto;
+  border-radius: 24px;
+  background: white;
+  gap: 16px;
+  display: flex;
+  align-items: center;
+  justify-content:center ;
+  flex-direction: column;
+  padding-right: 15px;
+}
+.btn-left {
+  float: left;
+  width: 70%;
+  height: auto;
+  border-radius: 24px;
+}
+.logoImg {
+  margin-top: 1%;
+  margin-left: 5%;
+  float: inherit;
+}
+.title {
+  float: inherit;
+  margin-left: 20%;
+}
+.text-input {
+  float: left;
+  margin-left: 10%;
+  margin-top: 10%;
+  width:680px;
+  height: 48px;
+  color: #0A3871;
+  border: none;
+  outline: none;
+  background: #f3f5fc;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 48px;
+}
+#imagem {
+  margin-top: 20%;
+  margin-left: 2%;
+  width: 90%;
+  height: auto;
+}
+#texto {
+  margin-left: 7%;
+  margin-top: 5%;
+  text-align: center;
+  padding-bottom: 25px;
+  font-size: 1.5rem;
+}
+#textArea {
+  float: left;
+  margin-left: 10%;
+  color: #0a3871;
+  width: 80%;
+  height: 60%;
+  border: none;
+  outline: none;
+  font-size: 15px;
+  text-align: center;
+}
+.content{
+  font-size: 24px;
+  color: #0A3871;
+  line-height: 36px;
+}
+#btn-encriptar {
+  padding: 24px;
+  width: 30%;
+  height: 60%;
+  border-radius: 24px;
+  margin-left: 15%;
+  background: #0a3871;
+  color: #d8dfe8;
+  border-color: #d8dfe8;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bolder;
+}
+#btn-desencriptar {
+  padding: 24px;
+  width: 30%;
+  height: 60%;
+  border-radius: 24px;
+  margin-left: 10%;
+  background: #d8dfe8;
+  border-color: #0A3871;
+  color: #0A3871;
+  font-size: 16px;
+  font-weight: bolder;
+}
+#copiar {
+  margin-left: 33%;
+  margin-top: 0%;
+  padding: 24px;
+  width: 60%;
+  height: 60%;
+  background: #d8dfe8;
+  border-radius: 24px;
+  border-color: #0A3871;
+  color: #0A3871;
+  font-size: 16px;
+  position: relative;
+  right: 30px;
+  font-weight: bolder;
+  display: none;
+  margin-bottom:25px ;
+
+}
+.btn-left p{
+  font-size: 10px;
+  font-weight: bold;
+
+  position: relative;
+  left: 90px;
+}
